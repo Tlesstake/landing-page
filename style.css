@@ -39,6 +39,16 @@ body {
 	color: #e5e7eb;
 	text-decoration: none;
 }
+.content {
+	display: flex;
+}
+.content-left {
+
+}
+.content .img {
+	max-width: 250px;
+	background-color: lightgray;
+}
 .content .header {
 	font-size: 48px;
 	font-weight: bolder;
