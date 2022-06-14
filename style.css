@@ -6,6 +6,14 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+button {
+	background-color: #3882f6;
+	padding: 5px 20px;
+	border-radius: 5px;
+	border: 0;
+	color: white;
+	font-weight: bold;
+}
 
 /* navigation and content section */
 .nav-content {
@@ -41,12 +49,18 @@ body {
 }
 .content {
 	display: flex;
+	justify-content: center;
+	margin: 100px 0;
+	gap: 40px;
 }
 .content-left {
 
 }
+.content-right img{
+	width: 400px;
+}
 .content .img {
-	max-width: 250px;
+	max-width: 500px;
 	background-color: lightgray;
 }
 .content .header {
@@ -55,33 +69,98 @@ body {
 	color: #f0faf8;
 }
 .content .text {
+	margin: 15px 0;
 	font-size: 18px;
 	color: #e5e7eb;
 }
+.content button {
+}
 
 /* information section */
+.information .cards {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+.information .card {
+	text-align: center;
+	width: 250px;
+}
 .information .header {
 	font-size: 36px;
+	margin-top: 40px;
+	text-align: center;
 	font-weight: bolder;
 	color: #1f2937;
+}
+.information img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border: black 4px solid;
+	border-radius: 7px;
+}
+.information .text {
+	text-align: center;	
+	font-size: 20px;
 }
 
 /* quote section */
 .quote-sec {
 	background-color: #e5e7eb;
+	padding: 100px 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+/* .quote-bloc { 
+	margin: 0 auto;
+} */
 .quote-sec .quote {
 	font-size: 36px;
 	font-weight: lighter;
 	color: #1f2937;
 	font-style: italic;
+	/* text-align: center; */
+}
+.quote-sec .quoter{
+	text-align: end;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 15px;
 }
 
 /* sign-up section */
-
+.sign-up {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.sign-up-bloc {
+	background-color: #3882f6;
+	padding: 40px 80px;
+	margin: 60px 80px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 5px;
+	gap: 100px;
+}
+.sign-up .header {
+	font-weight: bold;
+	font-size: 17x;
+}
+.sign-up button {
+	border: 3px white solid;
+}
 /* footer section */
 .footer {
 	background-color: #1f2937;
 	color: white;
+	padding: 30px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
 }
